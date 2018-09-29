@@ -113,7 +113,7 @@
 	\includegraphics[width=5cm]{./Imagenes/actividad_04_14} 
 	\end{center}
 
-	\item Modificar el reporte del ítem 4.6 y mostrar adicionalmente los datos de comisión (commission\_pct) de todos los empleados que solamente el 20\% de comisi\'on.
+	\item  Modificar el reporte del ítem 4.6 y mostrar adicionalmente los datos de comisión (commission\_pct) de todos los empleados que solamente el 20\% de comisi\'on.
 	\\ \\select last\_name 'Empleado',salary 'Salario Mensual',commission\_pct from employees where salary > 5000 and salary < 12000 and (department\_id = 20 or department\_id = 50) and commission\_pct = 0.20;
 	\\go
 
